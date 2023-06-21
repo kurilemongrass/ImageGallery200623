@@ -15,6 +15,8 @@ function ImageGallery() {
   const imageListLength = imageList.length;
   const getImgUrl = (name) => new URL(`${name}`, import.meta.url).href;
 
+  console.log(imageList);
+
   const [imageNo, setImageNo] = useState(0);
 
   function changeImage() {
