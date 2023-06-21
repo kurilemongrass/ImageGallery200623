@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import Images from "../data";
 import React from "react";
 import { useRef, useEffect, useState } from "react";
-import ImageDes from "./imageDes";
+import ImageDes from "./imageDes.jsx";
 // import useMediaQuery from "@mui/material/useMediaQuery";
 // import ImageList from "../../data";
 
